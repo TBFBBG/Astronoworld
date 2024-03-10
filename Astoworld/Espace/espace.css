@@ -1,0 +1,68 @@
+/*body{
+	//background-image: url(img/img1.html);
+	animation: 5s //infinite;
+	background-size: cover;
+	background-repeat: no-repeat;
+  	animation-duration: 20s;
+  	animation-name: bg;
+  	animation-iteration-count: infinite;
+  	animation-direction: normal;
+
+}
+*/
+
+body{
+	background: black;
+}
+
+/*@keyframes bg{
+	0% {background-image: url(../img/bg3.jpg);}
+  25% {background-image: url(../img/bg2.jpg);}
+  50% {background-image: url(../img/bg4.jpg);}
+  75% {background-image: url(../img/bg3.jpg);}
+  100% {background-image: url(../img/bg2.jpg);}
+}
+*/
+nav{
+	display: flex;
+	font-family: cursive;
+	justify-content: space-between;
+	width: 35%;
+	margin-left: 55%;
+	color: white;
+	position: fixed;
+	top: 0;
+	margin-top: 6vh;
+	font-size: 3vh;
+}
+
+
+.header{
+	font-size: 5vh;
+	font-family: cursive;
+	color: white;
+	text-shadow: transparent;
+	width: 65%;
+	margin-left: 10%;
+	color: red;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+
+}
+
+/*.nav{
+	display: flex;
+	justify-content: space-around;
+	font-size: 5vh;
+	font-family: math;
+	color: white;
+}
+*/
+a:hover {
+    cursor: pointer;
+    color: red;
+}
+

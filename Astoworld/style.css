@@ -1,0 +1,111 @@
+body{
+	//background-image: url(img/bg3.jpg);
+	background-attachment: fixed;
+	background: black;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+nav{
+	display: flex;
+	font-family: cursive;
+	justify-content: space-between;
+	width: 35%;
+	margin-left: 55%;
+	color: white;
+	position: fixed;
+	top: 0;
+	margin-top: 6vh;
+	font-size: 3vh;
+}
+
+
+.header{
+	font-size: 5vh;
+	font-family: cursive;
+	color: white;
+	text-shadow: transparent;
+	width: 65%;
+	margin-left: 10%;
+	color: red;
+	position: fixed;
+
+}
+
+a{
+	color: white;
+	text-decoration: none;
+
+}
+
+#button:active{
+	background-color: -webkit-linear-gradient(red, orange);
+	background-clip: border-box;
+
+}
+
+.tete{
+	background: black;
+	width: 20vh;
+}
+
+/*.nav{
+	display: flex;
+	justify-content: space-around;
+	font-size: 5vh;
+	font-family: math;
+	color: white;
+}
+*/
+a:hover {
+    cursor: pointer;
+    color: red;
+}
+
+.img{
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 10px;
+	padding: 20px;
+	top: 10rem;
+}
+
+img{
+	height: 20rem;
+	width: 20rem;
+	margin: 10px;
+	margin-top: 15vh;
+}
+
+p{
+	color: white;
+	font-family: monospace;
+}
+
+h5{
+	color: white;
+}
+
+.span{
+	
+/*background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,188,212,1) 35%, rgba(85,100,181,1) 100%);
+	color: ;*/
+	background: -webkit-linear-gradient(#eee, red);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+	font-family: serif;
+}
+
+.span2{
+	font-size: 2vh;
+	font-family: serif;
+}
+
+.button:hover{
+	cursor: pointer;
+}
+
+.button:active{
+	cursor: pointer;
+	background: red;
+}
